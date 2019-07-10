@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  api:
+    build: .
+    env_file: secrets.env
+    ports:
+      - 5002:5002
+    volumes:
+      - .:/app
+    command: python main.py
