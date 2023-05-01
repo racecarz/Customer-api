@@ -7,7 +7,7 @@ setup(
     description="",
     include_package_data=True,
     install_requires=[
-        'flask==1.0.3',
+        'flask==2.3.2',
         'Flask-Mail==0.9.1',
         'Flask-SQLAlchemy==2.4.0',
         'Flask-WTF==0.14.2',
